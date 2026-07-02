@@ -32,10 +32,12 @@ Every layer earns its place by the failure mode it removes. The architecture is 
 | --- | --- |
 | [`agentic-quant-lab`](https://github.com/mastroke/agentic-quant-lab) | End-to-end quant agent: planner → simulator → risk engine → research report |
 | [`memory-layer-rnd`](https://github.com/mastroke/memory-layer-rnd) | Multi-store memory with retrieval and conflict resolution |
-| [`verified-memory-gate`](https://github.com/mastroke/verified-memory-gate) | Execute → distill → verify quorum → gated persistence → audit export |
-| [`ai-research-radar`](https://github.com/mastroke/ai-research-radar) | Source connectors → brief compiler → synthesis → seen-store → delivery |
 | [`agentic-mlops-foundry`](https://github.com/mastroke/agentic-mlops-foundry) | Production scaffolding: API boundary → runtime → eval gate → deployment path |
 | [`llm-finetuning-eval-lab`](https://github.com/mastroke/llm-finetuning-eval-lab) | Data → baseline → metrics → model card → CI gate |
+| [`agent-handoff`](https://github.com/mastroke/agent-handoff) | Golden scenarios → four-layer checks → results JSON → acceptance report |
+| [`agent-loop-hillclimber`](https://github.com/mastroke/agent-loop-hillclimber) | Append-only trace ingest → batch analysis → harness rewrite proposals |
+| [`verified-memory-gate`](https://github.com/mastroke/verified-memory-gate) | Execute → distill → verify quorum → gated persistence → audit export |
+| [`ai-research-radar`](https://github.com/mastroke/ai-research-radar) | Source connectors → brief compiler → synthesis → seen-store → delivery |
 
 ## Stack
 
