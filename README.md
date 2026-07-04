@@ -26,6 +26,14 @@ Every layer earns its place by the failure mode it removes. The architecture is 
 - **Quant research systems** — backtesting, risk constraints, and a hard separation between research and execution.
 - **Operational shape** — APIs, containers, CI, and runbooks a small team can actually run without me in the room.
 
+## Recent work
+
+| Repository | Value |
+| --- | --- |
+| [`agent-acceptance`](https://github.com/mastroke/agent-acceptance) | One acceptance report — behavioral sign-off and GateMem governance combined for procurement-ready agent delivery |
+| [`agent-handoff`](https://github.com/mastroke/agent-handoff) | Golden-scenario replay across prompt, tool, memory, and retrieval layers before production handoff |
+| [`verified-memory-gate`](https://github.com/mastroke/verified-memory-gate) | GateMem-aligned scoring with quorum verification and gated persistence before memory is trusted downstream |
+
 ## Repositories
 
 | Repository | Architectural theme |
@@ -35,6 +43,7 @@ Every layer earns its place by the failure mode it removes. The architecture is 
 | [`agentic-mlops-foundry`](https://github.com/mastroke/agentic-mlops-foundry) | Production scaffolding: API boundary → runtime → eval gate → deployment path |
 | [`llm-finetuning-eval-lab`](https://github.com/mastroke/llm-finetuning-eval-lab) | Data → baseline → metrics → model card → CI gate |
 | [`agent-handoff`](https://github.com/mastroke/agent-handoff) | Golden scenarios → four-layer checks → results JSON → acceptance report |
+| [`agent-acceptance`](https://github.com/mastroke/agent-acceptance) | Behavioral sign-off ∧ memory governance → one combined acceptance report for delivery |
 | [`agent-loop-hillclimber`](https://github.com/mastroke/agent-loop-hillclimber) | Append-only trace ingest → batch analysis → harness rewrite proposals |
 | [`verified-memory-gate`](https://github.com/mastroke/verified-memory-gate) | Execute → distill → verify quorum → gated persistence → audit export |
 | [`ai-research-radar`](https://github.com/mastroke/ai-research-radar) | Source connectors → brief compiler → synthesis → seen-store → delivery |
