@@ -1,6 +1,8 @@
 # Masoob Alam
 **Agentic AI · MLOps · Quant Systems · Memory-Layer R&D**
 
+**Topics:** [agentic-ai](https://github.com/topics/agentic-ai) · [mlops](https://github.com/topics/mlops) · [quantitative-finance](https://github.com/topics/quantitative-finance) · [llm-agents](https://github.com/topics/llm-agents) · [memory](https://github.com/topics/memory) · [evaluation](https://github.com/topics/evaluation)
+
 I build AI systems the way production infrastructure should be built — as composable architectures with explicit state, durable memory, evaluation loops, and deployment boundaries that hold under load. The work here is defined by how systems are structured and where they break, not just what they output.
 
 The hard part of agentic AI isn't the model. It's the seams: memory bleeding into prompts, evaluation bolted on after release, deployment treated as an afterthought. I treat those boundaries as first-class design problems — because that's where reliability, cost, and trust are actually won or lost.
