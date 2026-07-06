@@ -1,66 +1,17 @@
 # Masoob Alam
-**Agentic AI · MLOps · Quant Systems · Memory-Layer R&D**
+
+🧠 Building production-grade AI agents
+
+I build agentic AI systems the way production infrastructure should be built composable architectures with explicit state, durable memory, evaluation gates, and deployment boundaries that hold under load. The hard part of agentic AI isn't the model; it's the seams.
+
+- 🔭 I'm currently building memory-layer and acceptance tooling for AI agents 
+- 👯 I'm looking to collaborate on agent memory, evaluation, and quant infrastructure
+- 🤔 I'm looking for help with scaling eval harnesses across prompt, tool, and memory layers
+- 💬 Ask me about agentic AI, MLOps, memory architecture, and quantitative systems
+- 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/masoob) · [GitHub](https://github.com/mastroke)
+- 😄 Pronouns: he/him
+- ⚡ Memory is a contract, not a transcript dump.
+
+---
 
 **Topics:** [agentic-ai](https://github.com/topics/agentic-ai) · [mlops](https://github.com/topics/mlops) · [quantitative-finance](https://github.com/topics/quantitative-finance) · [llm-agents](https://github.com/topics/llm-agents) · [memory](https://github.com/topics/memory) · [evaluation](https://github.com/topics/evaluation)
-
-I build AI systems the way production infrastructure should be built — as composable architectures with explicit state, durable memory, evaluation loops, and deployment boundaries that hold under load. The work here is defined by how systems are structured and where they break, not just what they output.
-
-The hard part of agentic AI isn't the model. It's the seams: memory bleeding into prompts, evaluation bolted on after release, deployment treated as an afterthought. I treat those boundaries as first-class design problems — because that's where reliability, cost, and trust are actually won or lost.
-
-## How I Think About Systems
-
-Every layer earns its place by the failure mode it removes. The architecture is just that idea, made explicit:
-
-| Layer | Role | Failure it removes |
-| --- | --- | --- |
-| **Intent → workflow** | Decompose a goal into bounded, inspectable steps | Agents that wander with no stopping condition |
-| **Memory** | Episodic, semantic, and graph state the agent reads *and* writes | Context bloat, prompt leakage, run-to-run amnesia |
-| **Tools & data** | Typed, permissioned external calls | Unaudited side effects and silent data drift |
-| **Evaluation gate** | Score and approve output before anything downstream trusts it | Regressions shipping unnoticed |
-| **Traces & monitoring** | A durable record of every decision the system made | Failures you can't reproduce, explain, or bound |
-| **Iteration loop** | Route eval and trace signals back into the workflow | A system no better than the day it shipped |
-
-## Where I Focus
-
-- **Agentic orchestration** — explicit state, bounded tool use, human oversight, and decisions you can trace and roll back.
-- **Memory architecture** — episodic, semantic, and graph memory with conflict resolution, designed as a contract rather than an ever-growing context window.
-- **Evaluation-first ML** — metrics, gates, and regression checks that decide whether a system earns trust *before* it ships.
-- **Quant research systems** — backtesting, risk constraints, and a hard separation between research and execution.
-- **Operational shape** — APIs, containers, CI, and runbooks a small team can actually run without me in the room.
-
-## Recent work
-
-| Repository | Value |
-| --- | --- |
-| [`agent-acceptance`](https://github.com/mastroke/agent-acceptance) | One acceptance report — behavioral sign-off and GateMem governance combined for procurement-ready agent delivery |
-| [`agent-handoff`](https://github.com/mastroke/agent-handoff) | Golden-scenario replay across prompt, tool, memory, and retrieval layers before production handoff |
-| [`verified-memory-gate`](https://github.com/mastroke/verified-memory-gate) | GateMem-aligned scoring with quorum verification and gated persistence before memory is trusted downstream |
-
-## Repositories
-
-| Repository | Architectural theme |
-| --- | --- |
-| [`agentic-quant-lab`](https://github.com/mastroke/agentic-quant-lab) | End-to-end quant agent: planner → simulator → risk engine → research report |
-| [`memory-layer-rnd`](https://github.com/mastroke/memory-layer-rnd) | Multi-store memory with retrieval and conflict resolution |
-| [`agentic-mlops-foundry`](https://github.com/mastroke/agentic-mlops-foundry) | Production scaffolding: API boundary → runtime → eval gate → deployment path |
-| [`llm-finetuning-eval-lab`](https://github.com/mastroke/llm-finetuning-eval-lab) | Data → baseline → metrics → model card → CI gate |
-| [`agent-handoff`](https://github.com/mastroke/agent-handoff) | Golden scenarios → four-layer checks → results JSON → acceptance report |
-| [`agent-acceptance`](https://github.com/mastroke/agent-acceptance) | Behavioral sign-off ∧ memory governance → one combined acceptance report for delivery |
-| [`agent-loop-hillclimber`](https://github.com/mastroke/agent-loop-hillclimber) | Append-only trace ingest → batch analysis → harness rewrite proposals |
-| [`verified-memory-gate`](https://github.com/mastroke/verified-memory-gate) | Execute → distill → verify quorum → gated persistence → audit export |
-| [`ai-research-radar`](https://github.com/mastroke/ai-research-radar) | Source connectors → brief compiler → synthesis → seen-store → delivery |
-
-## Stack
-
-**Agents:** LangGraph-style workflows, role decomposition, RAG, tool calling, eval harnesses
-**ML/MLOps:** Python, FastAPI, Docker, GitHub Actions, experiment tracking
-**Quant:** pandas, NumPy, backtesting, risk metrics, RL research
-**Systems:** API design, ADRs, test strategy, operational runbooks
-
-## Operating Principles
-
-- Architecture should surface failure modes early, while they're still cheap to fix.
-- Memory is a contract, not a transcript dump.
-- Autonomy is only safe with evaluation, traces, and rollback paths.
-- Finance systems must separate research, paper trading, and live execution — without exception.
-- Real engineering shows up in docs, tests, and explicit trade-offs, not demos.
